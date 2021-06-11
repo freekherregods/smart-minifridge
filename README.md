@@ -1,0 +1,2 @@
+# smart-minifridge
+project one
