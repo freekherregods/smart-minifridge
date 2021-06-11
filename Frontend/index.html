@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Index</title>
+    <link rel="stylesheet" href="style/screen.css" />
+    <script src="https://cdn.socket.io/4.0.1/socket.io.min.js" integrity="sha384-LzhRnpGmQP+lOvWruF/lgkcqD+WDVt9fU3H4BWmwP5u5LTmkUGafMcpZKNObVMLU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script/datahandler.js"></script>
+    <script src="script/app.js"></script>
+  </head>
+  <body>
+    <div class="o-container">
+      
+      <div class="overview_title">Smart Mini Fridge Overview <button class="power js-power"><b>POWER OFF</b></button></div>
+      <div class="c-grid">
+        <div class="c-grid__item">  
+          <p>Hoeveelheid drank per dag</p>
+          <div class="js-linechart"></div>
+        </div>
+        <div class="c-grid__item">
+          <p>Frigo inhoud</p>
+          <div class="onderverdeling">
+            <ul class="js-producten frigo_inhoud">
+            </ul>
+          </div>
+        </div>
+        <div class="c-grid__item">
+          <p>Historiek</p>
+          <table class="c-table js-historiek">
+            
+          </table>
+        </div>
+        <div class="c-grid__item">
+          <p>Slot</p><br>
+          <button class="c-button js-button" data-button="1">
+            <img src="lock_closed_black_24dp.svg" alt="open lock">
+          </button>
+        </div>
+        <div class="c-grid__item">
+          <p>Temperatuur</p><br> <br>
+          <div class="c-center js-temperatuur"></div>
+        </div>
+        <div class="c-grid__item">
+          <p>Dagelijks Drankverbruik</p>
+          <div class="js-piechart c-centergraph">
+
+          </div>
+        </div>
+      </div>       
+  </div>  
+  <div class="modal js-modal" id="modal">
+    <div class="modal-body">
+      <p class="js-titel"></p>
+        <div class="modal-buttons">
+          <button data-id="1" class="ingescand js-scan">Ingescand</button>
+          <button data-id="2" class="uitgescand js-scan">Uitgescand</button>
+        </div>     
+    </div>
+  </div>     
+  <div id="overlay"></div>         
+  </body>
+</html>

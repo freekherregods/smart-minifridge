@@ -1,0 +1,103 @@
+{	
+	"786150000014":{
+		"product_name": "Stella Artois",
+		"product_quantity": "330",
+		"product_categorie": "alcohol",
+		"productid": "1"
+	},
+	
+	"5410228257479":{
+		"product_name": "Jupiler",
+		"product_quantity": "250",
+		"product_categorie": "alcohol",
+		"productid": "2"
+	},
+	"5410013101703":{
+		"product_name": "Spa Reine",
+		"product_quantity": "1000",
+		"product_categorie": "water",
+		"productid": "3"
+	},
+	"5449000111654":{
+		"product_name": "Chaudfontaine",
+		"product_quantity": "1500",
+		"product_categorie": "water",
+		"productid": "4"
+	},
+	"5400141304305":{
+		"product_name": "Fruitsap",
+		"product_quantity": "1500",
+		"product_categorie": "fruitsap",
+		"productid": "5"
+	},
+	"5400141105001":{
+		"product_name": "Chocomelk",
+		"product_quantity": "1000",
+		"product_categorie": "melk",
+		"productid": "6"
+	},
+	"5060466511880":{
+		"product_name": "Nalu",
+		"product_quantity": "250",
+		"product_categorie": "frisdrank",
+		"productid": "7"
+	},
+	"8717163936795":{
+		"product_name": "Ice Tea",
+		"product_quantity": "330",
+		"product_categorie": "frisdrank",
+		"productid": "8"
+	},
+	"5425017240648":{
+		"product_name": "Straffe hendrik 11°",
+		"product_quantity": "330",
+		"product_categorie": "alcohol",
+		"productid": "9"
+	},
+	"5410013305002":{
+		"product_name": "Bru",
+		"product_quantity": "1250",
+		"product_categorie": "water",
+		"productid": "10"
+	},
+	"5411681401164":{
+		"product_name": "Duvel Tripel hop citra",
+		"product_quantity": "330",
+		"product_categorie": "alcohol",
+		"productid": "11"
+	},
+	"5400141433586":{
+		"product_name": "Melk",
+		"product_quantity": "1000",
+		"product_categorie": "melk",
+		"productid": "12"
+
+	},
+	
+	"54491472":{
+		"product_name": "Coca Cola",
+		"product_quantity": "500",
+		"product_categorie": "frisdrank",
+		"productid": "13"
+	},
+	
+	"5411663007513":{
+		"product_name": "Vlaamse leeuw",
+		"product_quantity": "330",
+		"product_categorie": "alcohol",
+		"productid": "14"
+	},
+	"54085107":{
+		"product_name": "Primus",
+		"product_quantity": "330",
+		"product_categorie": "alcohol",
+		"productid": "15"
+	},	
+	"5410188035209"	:{
+		"product_name": "7up lemon",
+		"product_quantity": "330",
+		"product_categorie": "frisdrank",
+		"productid": "16"
+	}
+}
+
