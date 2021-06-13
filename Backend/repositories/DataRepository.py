@@ -59,5 +59,5 @@ class DataRepository:
 
     @staticmethod
     def read_graph_data():
-        sql = "select p.categorie, p.hoeveelheid, date_format(datum,'%H:%i') as tijdstip from historiek h inner join producten p on h.productId = p.productId where h.actieId = 2 and date(h.datum) = date(now())"
+        sql = "select p.categorie, p.hoeveelheid, date_format(datum,'%H:%i') as tijdstip from historiek h inner join producten p on h.productId = p.productId where h.actieId = 2 and date(h.datum) = date(now()) order by datum asc"
         return Database.get_rows(sql)
